@@ -1,8 +1,8 @@
-// Config
+// Config - erikbennett.news deploy
 // Set this to the full URL of your tt-rss install (no trailing slash).
-// When g2ttrss is served from a subdomain (e.g. mobile.thecodepoets.net),
+// When g2ttrss is served from a subdomain (e.g. mobile.erikbennett.news),
 // this must be an absolute URL -- a relative path will not work cross-origin.
-global_ttrssUrl = "https://thecodepoets.net/rss";
+global_ttrssUrl = "https://erikbennett.news/rss";
 
 // Preferences
 pref_Feed = '-4'; // Default: all items

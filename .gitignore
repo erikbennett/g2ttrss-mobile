@@ -1,0 +1,6 @@
+# Active deploy config -- do not commit.
+# Copy the appropriate g2tt-config.*.js to this filename on each server.
+js/g2tt-config.js
+
+# macOS
+.DS_Store
