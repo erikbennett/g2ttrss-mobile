@@ -1,0 +1,13 @@
+# CORS headers for g2ttrss subdomain access.
+# Deploy this to your tt-rss directory (e.g. public_html/rss/.htaccess),
+# NOT to the g2ttrss directory.
+#
+# Replace the Allow-Origin value with the actual subdomain URL for each install:
+#   thecodepoets.net: https://mobile.thecodepoets.net
+#   erikbennett.news:  https://mobile.erikbennett.news
+
+<IfModule mod_headers.c>
+    Header always set Access-Control-Allow-Origin "https://mobile.thecodepoets.net"
+    Header always set Access-Control-Allow-Methods "POST, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type"
+</IfModule>
