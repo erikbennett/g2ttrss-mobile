@@ -443,6 +443,7 @@ function showEmpty() {
 }
 
 function showFeeds() {
+    $('html,body').scrollTop(0);
     $('#feed').addClass('hidden');
     $('#subscriptions').removeClass('hidden');
     $('.back-to-feeds').addClass('hidden');
@@ -741,6 +742,7 @@ function getTopCategories() {
 }
 
 function getFeeds(parent_id, parent_title, parent_unread) {
+    $('html,body').scrollTop(0);
     global_parentId = parent_id;
     if (parent_id === '-4') {
         getTopCategories();
