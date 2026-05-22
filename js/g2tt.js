@@ -515,6 +515,9 @@ function getHeadlines(since) {
         data.skip = since;
     }
     data.search = search;
+    if (search) {
+        data.search_language = 'Simple';
+    }
     var headlines = apiCall(data);
 
     headlines.done(function (response, textStatus, jqXHR) {
